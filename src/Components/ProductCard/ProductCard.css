@@ -1,0 +1,101 @@
+.boton_comprar, .boton_comprado, .boton_procesando {
+    font-size: 18px;
+    font-weight: 600;
+    float: inline-end;
+    padding: 3px 0;
+    width: 55%;
+    border-radius: 10px;
+    border: 0;
+    color: rgb(255, 255, 255);
+}
+
+.boton_comprado {
+    background-color: rgb(176, 221, 175);
+}
+
+.boton_comprar {
+    background-color: rgb(50, 155, 47);
+}
+
+.boton_procesando {
+    background-color: rgb(50, 155, 47);
+}
+
+.boton_comprar:hover {
+    background-color: rgb(17, 206, 14);
+}
+
+.caja_detalles {
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.caja_precio_anterior {
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.card_caja {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: max-content;
+    display: inline-block;
+}
+
+.descuento {
+    background-color:rgb(221, 49, 49);
+    font-size: 14px;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+.img_mesadas {
+    display: flex;
+    justify-content: center;
+    min-width: 180px;
+    max-width:300px;
+    width: 100%;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.precio_final {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    font-size: 21px;
+    font-weight:600;
+}
+
+.precio_real {
+    margin-right: 3%;
+    text-decoration: line-through;
+    justify-content: left;
+    font-size: 19px;
+
+}
+
+.titulo {
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+}
+
+.ver_detalles {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+@media screen and (max-width:576px) {
+    .boton_comprar, .boton_comprado, .boton_procesando {
+        font-size: 16px;
+        width: 55%;
+    }
+}

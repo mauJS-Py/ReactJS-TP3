@@ -1,0 +1,82 @@
+.am {
+    font-family: 'Segoe Print', sans-serif;
+    font-size: 34px;
+}
+
+.caja_navbar {
+    background-color: #325598;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+}
+
+.link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.link-seleccionado {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.logo {
+    color: #F2F7F7;
+    font-family: Microsoft PhagsPa, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+    margin-left: 20px;
+    min-width: 35%;
+}
+
+.navbar_links {
+    font-size: 18px;
+    color: #ffffff;
+    min-width: 20%;
+    margin-right: 20px;
+}
+
+.navbar_links_separador {
+    font-size: 20px;
+    color: #91BDBB;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width:576px) {
+    .am {
+        font-size: 30px;
+    }
+
+    .link {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 6px;
+    }
+
+    .link-seleccionado {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .logo {
+        font-size: 27px;
+        min-width: 45%;
+        padding: 15px 0;
+    }
+    
+    .navbar_links {
+        min-width: 44%;
+        font-size: 17px;
+        padding: 15px 0;
+    }
+    
+    .navbar_links_separador {
+        font-size: 17px;
+    }
+}

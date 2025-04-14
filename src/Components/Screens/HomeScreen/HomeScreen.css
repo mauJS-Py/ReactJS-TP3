@@ -1,0 +1,19 @@
+.caja_home {
+    padding: 0 15px;
+}
+
+.titulo_logo {
+    font-family: Microsoft PhagsPa, sans-serif;
+    font-size: 41px;
+    font-weight: 600;
+}
+
+.titulo_logo_solo_am {
+    color: #325598;
+    font-family: 'Segoe Print', sans-serif;
+    font-size: 44px;
+}
+
+.texto_home {
+    font-size: 18px;
+}
